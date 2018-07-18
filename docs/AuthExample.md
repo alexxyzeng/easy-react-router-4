@@ -1,6 +1,6 @@
 #Auth Example
 ###本案例主要展示了React Router中Redirect的用法。
-***
+
 ####*Redirect*：类似于Route组件，通过接受一个path参数，来实现点击Link来跳转到其他Route对应的组件，例如：
     <Route path='/login' component={Login} />
     <PrivateRoute path='/protected' component={Protected} />
