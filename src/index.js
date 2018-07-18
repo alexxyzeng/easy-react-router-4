@@ -9,8 +9,9 @@ import {
     PreventingTransitionExample,
     RecursiveExample,
     NoMatchExample,
+    AmbiguousExample,
  } from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<NoMatchExample />, document.getElementById('root'));
+ReactDOM.render(<CustomLinkExample />, document.getElementById('root'));
 registerServiceWorker();
