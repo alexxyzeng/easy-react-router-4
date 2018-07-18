@@ -7,6 +7,7 @@ import CustomLinkExample from './CustomLinkExample';
 import PreventingTransitionExample from './PreventingTransitionExample';
 import RecursiveExample from './RecursiveExample';
 import NoMatchExample from './NoMatchExample';
+import AmbiguousExample from './AmbigousExample';
 
 export  { 
     BasicExample, 
@@ -16,4 +17,5 @@ export  {
     PreventingTransitionExample,
     RecursiveExample,
     NoMatchExample,
+    AmbiguousExample,
 };

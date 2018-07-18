@@ -30,7 +30,6 @@ const NoMatchExample = () => (
                 </li>
             </ul>
             <Switch>
-
                 <Route path="/" exact component={Home} />
                 <Redirect from='/old-match' to='/will-match' />
                 <Route path='/will-match' component={WillMatch} />
