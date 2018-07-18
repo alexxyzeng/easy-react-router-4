@@ -1,8 +1,7 @@
-#No Match Example
-###本案例主要展示了React Router中Switch的用法。
-***
-####*Switch*：
-######Switch组件接受一个或多个Route作为子组件，当Switch中的多个Route都能匹配某个URL时，只会执行Switch中匹配的路由中的第一个的跳转，例如：
+# No Match Example
+### 本案例主要展示了React Router中Switch的用法。
+#### *Switch*：
+###### Switch组件接受一个或多个Route作为子组件，当Switch中的多个Route都能匹配某个URL时，只会执行Switch中匹配的路由中的第一个的跳转，例如：
     <Switch>
         <Route path="/" exact component={Home} />
         <Redirect from='/old-match' to='/will-match' />
